@@ -1,3 +1,8 @@
+
+//import Tracker from 'meteor/tracker'
+var Tracker = Package.tracker.Tracker
+
+
 Accounts._hooksLogin = Accounts._hooksLogin || [];
 Accounts._hooksLogout = Accounts._hooksLogout || [];
 
@@ -25,7 +30,7 @@ Accounts._callHooksLogout = function() {
   });
 }
 
-Meteor.autorun(function() {
+Tracker.autorun(function() {
   if (Meteor.userId()) {
     Accounts._callHooksLogin();
   } else {

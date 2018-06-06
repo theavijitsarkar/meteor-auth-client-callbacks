@@ -1,7 +1,4 @@
-```diff
-- NOTE: This package is not maintained anymore.
-- If you want to help, please reach out to gwendall.esnault@gmail.com
-```
+The original plugin is not maintained and was failing with Meteor 1.7. This fork fixes that.
 
 Meteor Auth Client Callbacks
 ============================

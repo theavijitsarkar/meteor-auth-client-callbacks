@@ -1,7 +1,7 @@
 Package.describe({
-  name: "gwendall:auth-client-callbacks",
-  summary: "Adds client-side onLogin and onLogout methods",
-  version: "0.1.0"
+  name: "snowbreeze:auth-client-callbacks",
+  summary: "Adds client-side onLogin and onLogout methods. Works with Meteor 1.7",
+  version: "0.1.5"
 });
 
 Package.on_use(function (api, where) {
